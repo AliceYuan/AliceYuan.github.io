@@ -1,4 +1,2 @@
 StaticSite
-==========
-
-Static site for aliceyuan.ca
+Github pages for aliceyuan.ca
