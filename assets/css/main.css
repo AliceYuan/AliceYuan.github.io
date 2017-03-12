@@ -2354,15 +2354,16 @@ button.style3:hover,
   border: solid 1px #fff;
   display: inline-block;
   margin: 0 0 3em 0;
+  background: rgba(45, 45, 45, 0.5);
 }
-/* line 822, ../sass/main.scss */
+/* line 823, ../sass/main.scss */
 #footer .copyright {
   margin: 0 0 9em 0;
   font-size: 0.8em;
 }
 
 /* Poptrox */
-/* line 830, ../sass/main.scss */
+/* line 831, ../sass/main.scss */
 .poptrox-popup {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -2371,7 +2372,7 @@ button.style3:hover,
   background: #fff;
   padding-bottom: 3em;
 }
-/* line 835, ../sass/main.scss */
+/* line 836, ../sass/main.scss */
 .poptrox-popup .loader {
   width: 48px;
   height: 48px;
@@ -2381,7 +2382,7 @@ button.style3:hover,
   left: 50%;
   margin: -24px 0 0 -24px;
 }
-/* line 845, ../sass/main.scss */
+/* line 846, ../sass/main.scss */
 .poptrox-popup .caption {
   position: absolute;
   bottom: 0;
@@ -2394,7 +2395,7 @@ button.style3:hover,
   cursor: default;
   z-index: 1;
 }
-/* line 858, ../sass/main.scss */
+/* line 859, ../sass/main.scss */
 .poptrox-popup .nav-next,
 .poptrox-popup .nav-previous {
   -moz-transition: opacity 0.5s ease-in-out;
@@ -2410,7 +2411,7 @@ button.style3:hover,
   background: rgba(0, 0, 0, 0.01);
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
-/* line 870, ../sass/main.scss */
+/* line 871, ../sass/main.scss */
 .poptrox-popup .nav-next:before,
 .poptrox-popup .nav-previous:before {
   content: '';
@@ -2421,29 +2422,29 @@ button.style3:hover,
   top: calc(50% - 1.5em);
   margin: -32px 0 0 0;
 }
-/* line 882, ../sass/main.scss */
+/* line 883, ../sass/main.scss */
 .poptrox-popup:hover .nav-next,
 .poptrox-popup:hover .nav-previous {
   opacity: 0.5;
 }
-/* line 886, ../sass/main.scss */
+/* line 887, ../sass/main.scss */
 .poptrox-popup:hover .nav-next:hover,
 .poptrox-popup:hover .nav-previous:hover {
   opacity: 1.0;
 }
-/* line 892, ../sass/main.scss */
+/* line 893, ../sass/main.scss */
 .poptrox-popup .nav-next {
   right: 0;
 }
-/* line 895, ../sass/main.scss */
+/* line 896, ../sass/main.scss */
 .poptrox-popup .nav-next:before {
   right: 0;
 }
-/* line 900, ../sass/main.scss */
+/* line 901, ../sass/main.scss */
 .poptrox-popup .nav-previous {
   left: 0;
 }
-/* line 903, ../sass/main.scss */
+/* line 904, ../sass/main.scss */
 .poptrox-popup .nav-previous:before {
   -moz-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -2453,7 +2454,7 @@ button.style3:hover,
   -ms-filter: "FlipH";
   filter: FlipH;
 }
-/* line 911, ../sass/main.scss */
+/* line 912, ../sass/main.scss */
 .poptrox-popup .closer {
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -2469,7 +2470,7 @@ button.style3:hover,
   opacity: 0;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
-/* line 923, ../sass/main.scss */
+/* line 924, ../sass/main.scss */
 .poptrox-popup .closer:before {
   -moz-transition: background-color 0.5s ease-in-out;
   -webkit-transition: background-color 0.5s ease-in-out;
@@ -2487,11 +2488,11 @@ button.style3:hover,
   background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.svg") center center;
   color: #fff !important;
 }
-/* line 940, ../sass/main.scss */
+/* line 941, ../sass/main.scss */
 .poptrox-popup:hover .closer {
   opacity: 0.5;
 }
-/* line 943, ../sass/main.scss */
+/* line 944, ../sass/main.scss */
 .poptrox-popup:hover .closer:hover {
   opacity: 1.0;
 }
@@ -2499,7 +2500,7 @@ button.style3:hover,
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  /* line 956, ../sass/main.scss */
+  /* line 957, ../sass/main.scss */
   body, input, textarea, select {
     font-size: 16pt;
   }
@@ -2507,7 +2508,7 @@ button.style3:hover,
 /* Normal */
 @media screen and (max-width: 1080px) {
   /* Banner */
-  /* line 968, ../sass/main.scss */
+  /* line 969, ../sass/main.scss */
   #banner {
     padding: 4em 0 4em 0;
     background-size: auto, 175% auto;
@@ -2516,7 +2517,7 @@ button.style3:hover,
 /* Narrow */
 @media screen and (max-width: 840px) {
   /* Basic */
-  /* line 981, ../sass/main.scss */
+  /* line 982, ../sass/main.scss */
   body {
     background-color: #203936;
     background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
@@ -2527,64 +2528,64 @@ button.style3:hover,
     font-size: 14pt;
   }
 
-  /* line 991, ../sass/main.scss */
+  /* line 992, ../sass/main.scss */
   input, textarea, select {
     font-size: 14pt;
   }
 
-  /* line 995, ../sass/main.scss */
+  /* line 996, ../sass/main.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em;
   }
 
-  /* line 1000, ../sass/main.scss */
+  /* line 1001, ../sass/main.scss */
   header p {
     margin: 0.25em 0 0 0;
     padding: 0 0 0.5em 0;
   }
 
   /* Box */
-  /* line 1007, ../sass/main.scss */
+  /* line 1008, ../sass/main.scss */
   .box {
     position: relative;
   }
-  /* line 1010, ../sass/main.scss */
+  /* line 1011, ../sass/main.scss */
   .box section {
     margin: 0 0 2em 0;
   }
-  /* line 1014, ../sass/main.scss */
+  /* line 1015, ../sass/main.scss */
   .box.style1 {
     padding: 2.5em 2em 2.5em 2em;
   }
-  /* line 1018, ../sass/main.scss */
+  /* line 1019, ../sass/main.scss */
   .box.style1.right .inner {
     padding-left: 2em;
   }
-  /* line 1024, ../sass/main.scss */
+  /* line 1025, ../sass/main.scss */
   .box.style1.left .inner {
     padding-right: 2em;
   }
-  /* line 1032, ../sass/main.scss */
+  /* line 1033, ../sass/main.scss */
   .box.style2 header {
     padding: 2em;
   }
-  /* line 1036, ../sass/main.scss */
+  /* line 1037, ../sass/main.scss */
   .box.style2 .inner {
     position: relative;
     padding: 30px 0 0 0;
   }
-  /* line 1042, ../sass/main.scss */
+  /* line 1043, ../sass/main.scss */
   .box.style3 {
     padding: 2.5em 2em 2.5em 2em;
   }
 
   /* Banner */
-  /* line 1049, ../sass/main.scss */
+  /* line 1050, ../sass/main.scss */
   #banner {
     padding: 3.5em;
     background-size: 200% auto;
   }
-  /* line 1053, ../sass/main.scss */
+  /* line 1054, ../sass/main.scss */
   #banner br {
     display: none;
   }
@@ -2592,68 +2593,68 @@ button.style3:hover,
 /* Mobile */
 @media screen and (max-width: 736px) {
   /* Basic */
-  /* line 1066, ../sass/main.scss */
+  /* line 1067, ../sass/main.scss */
   * {
     text-shadow: none !important;
   }
 
-  /* line 1070, ../sass/main.scss */
+  /* line 1071, ../sass/main.scss */
   body, input, textarea, select {
     line-height: 1.5em;
     font-size: 12pt;
     letter-spacing: 0;
   }
 
-  /* line 1076, ../sass/main.scss */
+  /* line 1077, ../sass/main.scss */
   h2, h3, h4, h5, h6 {
     font-size: 1em;
   }
 
-  /* line 1080, ../sass/main.scss */
+  /* line 1081, ../sass/main.scss */
   h2 {
     font-size: 1.25em;
     letter-spacing: 4px;
   }
 
   /* List */
-  /* line 1089, ../sass/main.scss */
+  /* line 1090, ../sass/main.scss */
   ul.default li {
     padding-left: 0.5em;
   }
-  /* line 1095, ../sass/main.scss */
+  /* line 1096, ../sass/main.scss */
   ul.icons a {
     width: 2em;
     height: 2em;
     line-height: 2em;
   }
-  /* line 1103, ../sass/main.scss */
+  /* line 1104, ../sass/main.scss */
   ul.menu li {
     display: block;
     padding: 0;
     border: 0;
     margin: 1em 0 0 0;
   }
-  /* line 1109, ../sass/main.scss */
+  /* line 1110, ../sass/main.scss */
   ul.menu li:first-child {
     margin-top: 0;
   }
-  /* line 1116, ../sass/main.scss */
+  /* line 1117, ../sass/main.scss */
   ul.actions li {
     display: block;
     margin: 1em 0 0 0;
   }
-  /* line 1120, ../sass/main.scss */
+  /* line 1121, ../sass/main.scss */
   ul.actions li:first-child {
     margin-top: 0;
   }
 
-  /* line 1129, ../sass/main.scss */
+  /* line 1130, ../sass/main.scss */
   ol.default li {
     padding-left: 0.25em;
   }
 
   /* Button */
-  /* line 1137, ../sass/main.scss */
+  /* line 1138, ../sass/main.scss */
   input[type="button"],
   input[type="submit"],
   input[type="reset"],
@@ -2665,16 +2666,16 @@ button.style3:hover,
   }
 
   /* Box */
-  /* line 1149, ../sass/main.scss */
+  /* line 1150, ../sass/main.scss */
   .box {
     margin-top: 4.5em;
   }
-  /* line 1152, ../sass/main.scss */
+  /* line 1153, ../sass/main.scss */
   .box:after {
     top: -4.5em;
     height: 4.5em;
   }
-  /* line 1157, ../sass/main.scss */
+  /* line 1158, ../sass/main.scss */
   .box:before {
     width: 45px;
     height: 33px;
@@ -2683,71 +2684,71 @@ button.style3:hover,
     margin-top: -16.5px;
     background-size: 45px 33px;
   }
-  /* line 1166, ../sass/main.scss */
+  /* line 1167, ../sass/main.scss */
   .box.style1 {
     padding: 0;
     text-align: center;
   }
-  /* line 1170, ../sass/main.scss */
+  /* line 1171, ../sass/main.scss */
   .box.style1 .image {
     position: relative !important;
     left: 0 !important;
     width: 100% !important;
     height: auto !important;
   }
-  /* line 1176, ../sass/main.scss */
+  /* line 1177, ../sass/main.scss */
   .box.style1 .image img {
     position: relative;
     height: auto;
     width: 100%;
   }
-  /* line 1183, ../sass/main.scss */
+  /* line 1184, ../sass/main.scss */
   .box.style1 .inner {
     margin: 0 !important;
     padding: 2em 1.25em 2em 1.25em !important;
   }
-  /* line 1191, ../sass/main.scss */
+  /* line 1192, ../sass/main.scss */
   .box.style2 .inner .row:before {
     display: none;
   }
-  /* line 1195, ../sass/main.scss */
+  /* line 1196, ../sass/main.scss */
   .box.style2 .inner .image {
     padding: 0;
     max-width: 250px;
     margin: 0 auto 20px auto;
   }
-  /* line 1203, ../sass/main.scss */
+  /* line 1204, ../sass/main.scss */
   .box.style3 {
     padding: 2em 1.25em 2em 1.25em;
   }
 
   /* Header */
-  /* line 1209, ../sass/main.scss */
+  /* line 1210, ../sass/main.scss */
   #header {
     padding: 6em 0 6em 0;
   }
-  /* line 1212, ../sass/main.scss */
+  /* line 1213, ../sass/main.scss */
   #header header {
     padding-left: 2em;
     padding-right: 2em;
   }
-  /* line 1216, ../sass/main.scss */
+  /* line 1217, ../sass/main.scss */
   #header header h1 {
     font-size: 1.75em;
     letter-spacing: 6px;
   }
-  /* line 1222, ../sass/main.scss */
+  /* line 1223, ../sass/main.scss */
   #header footer {
     bottom: 4.5em;
     padding: 0 2em 0 2em;
   }
-  /* line 1226, ../sass/main.scss */
+  /* line 1227, ../sass/main.scss */
   #header footer:after {
     bottom: -4.5em;
     left: 50%;
     height: 4.5em;
   }
-  /* line 1232, ../sass/main.scss */
+  /* line 1233, ../sass/main.scss */
   #header footer:before {
     width: 45px;
     height: 33px;
@@ -2758,44 +2759,44 @@ button.style3:hover,
   }
 
   /* Banner */
-  /* line 1244, ../sass/main.scss */
+  /* line 1245, ../sass/main.scss */
   #banner {
     padding: 3em 2em 3em 2em;
     background-size: auto 150%;
   }
-  /* line 1248, ../sass/main.scss */
+  /* line 1249, ../sass/main.scss */
   #banner header {
     margin: 0 0 1em 0;
   }
-  /* line 1251, ../sass/main.scss */
+  /* line 1252, ../sass/main.scss */
   #banner header h2 {
     font-size: 1.5em;
     letter-spacing: 6px;
   }
 
   /* Footer */
-  /* line 1261, ../sass/main.scss */
+  /* line 1262, ../sass/main.scss */
   #footer .icons {
     padding: 0.5em 1.25em 0.5em 1.25em;
   }
-  /* line 1265, ../sass/main.scss */
+  /* line 1266, ../sass/main.scss */
   #footer .copyright {
     font-size: 1em;
     margin: 0 0 4em 0;
   }
 
   /* Poptrox */
-  /* line 1273, ../sass/main.scss */
+  /* line 1274, ../sass/main.scss */
   .poptrox-popup .nav-next,
   .poptrox-popup .nav-previous {
     opacity: 1.0;
   }
-  /* line 1277, ../sass/main.scss */
+  /* line 1278, ../sass/main.scss */
   .poptrox-popup .nav-next:before,
   .poptrox-popup .nav-previous:before {
     display: none;
   }
-  /* line 1282, ../sass/main.scss */
+  /* line 1283, ../sass/main.scss */
   .poptrox-popup .closer {
     opacity: 0.5;
   }
