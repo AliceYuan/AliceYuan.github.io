@@ -1,3 +1,25 @@
-name: Jekyll Alice Yuan Personal Site
-markdown: redcarpet
-pygments: true
+title: Alice Yuan
+email: me@aliceyuan.ca
+short_description: Android Developer. Dancer. Art enthusiast. Traveler.
+keywords: >
+  alice, yuan, alice yuan, software, engineer, engineering, waterloo, university,
+  uw, girl, female, pinterest, google, namesalice, University of Waterloo,
+  android, user experience, UX, UI, frameworks
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://aliceyuan.ca"
+twitter_username: names_alice
+github_username:  aliceyuan
+linkedin_username:  aliceyuan
+instagram_username:  aliceyuan
+email:  me@aliceyuan.ca
+google_analytics: UA-34311779-1
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
